@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --nav-bg: #B2FFFF;
+
+    --text-black: #161616;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#main-header {
+    background-color: var(--nav-bg);
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+#main-header picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#main-header nav a {
+    color: var(--text-black);
+    text-decoration: none;
+}
+
+#main-header picture img {
+    width: 75px;
+    height: 75px;
+}
+
+#main-header form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main-header form button img {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+#main-header div {
+    display: flex;
+    align-items: center;
+}
+
+#main-header div input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-right: 5px;
+}
+
+#main-header div button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#main-header div img {
+    width: 35px;
+    height: 35  px;
+}
